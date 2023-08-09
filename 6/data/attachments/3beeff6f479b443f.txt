@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.lists.CriarListaTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.363 s <<< FAILURE! - in com.lists.CriarListaTest
+testQuandoCrioUmaListaEntaoObtenhoStatusCode201EOsDadosDaResposta(com.lists.CriarListaTest)  Time elapsed: 0.361 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at com.lists.CriarListaTest.testQuandoCrioUmaListaEntaoObtenhoStatusCode201EOsDadosDaResposta(CriarListaTest.java:46)
+
