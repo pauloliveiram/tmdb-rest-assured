@@ -24,7 +24,8 @@ jobs:
       run: mvn -B package --file pom.xml
       
     - name: Run tests
-      env: ${{ secrets.TMDB_BEARER_TOKEN }}
+      env: 
+        TMDB_BEARER_TOKEN: ${{ secrets.TMDB_BEARER_TOKEN }}
       run: mvn clean test
 
     - name: Get Allure history
