@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.lists.RemoverFilmeTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.257 s <<< FAILURE! - in com.lists.RemoverFilmeTest
+testQuandoRemovoUmFilmeNaListaEntaoObtenhoStatusCode200EOsDadosDaResposta(com.lists.RemoverFilmeTest)  Time elapsed: 0.255 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "io.restassured.internal.common.path.ObjectConverter.convertObjectTo(Object, java.lang.Class)" is null
+	at com.lists.RemoverFilmeTest.before(RemoverFilmeTest.java:43)
+
