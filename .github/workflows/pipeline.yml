@@ -24,7 +24,7 @@ jobs:
       run: mvn -B package --file pom.xml
       
     - name: Configurar ambiente
-      run: echo "Bearer ${{ secrets.TMDB_BEARER_TOKEN }}" >> $GITHUB_ENV
+      run: echo "${{ secrets.TMDB_BEARER_TOKEN }}" >> $GITHUB_ENV
 
     - name: Run tests
       run: |
