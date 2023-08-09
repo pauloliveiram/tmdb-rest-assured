@@ -22,11 +22,14 @@ jobs:
         
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+      
+    - name: Configurar ambiente
+      run: echo "Bearer ${{ secrets.TMDB_BEARER_TOKEN }}" >> $GITHUB_ENV
 
     - name: Run tests
-      run: mvn clean test
-      env: 
-          TMDB_BEARER_TOKEN: ${{ secrets.TMDB_BEARER_TOKEN }}
+      run: |
+            bearerToken=$TMDB_BEARER_TOKEN
+            mvn clean test
 
     - name: Get Allure history
       uses: actions/checkout@v2
