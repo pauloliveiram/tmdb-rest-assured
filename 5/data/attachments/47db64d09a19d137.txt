@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.lists.AdicionarFilmeTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.611 s <<< FAILURE! - in com.lists.AdicionarFilmeTest
+testQuandoAdicionoUmFilmeSemEstarAutorizadoEntaoObtenhoStatusCode401EOsDadosDaResposta(com.lists.AdicionarFilmeTest)  Time elapsed: 0.123 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "io.restassured.internal.common.path.ObjectConverter.convertObjectTo(Object, java.lang.Class)" is null
+	at com.lists.AdicionarFilmeTest.before(AdicionarFilmeTest.java:42)
+
+testQuandoAdicionoUmFilmeRepetidoNaListaEntaoObtenhoStatusCode403EOsDadosDaResposta(com.lists.AdicionarFilmeTest)  Time elapsed: 0.129 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "io.restassured.internal.common.path.ObjectConverter.convertObjectTo(Object, java.lang.Class)" is null
+	at com.lists.AdicionarFilmeTest.before(AdicionarFilmeTest.java:42)
+
+testQuandoAdicionoUmFilmeInvalidoEntaoObtenhoStatusCode404EOsDadosDaResposta(com.lists.AdicionarFilmeTest)  Time elapsed: 0.111 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "io.restassured.internal.common.path.ObjectConverter.convertObjectTo(Object, java.lang.Class)" is null
+	at com.lists.AdicionarFilmeTest.before(AdicionarFilmeTest.java:42)
+
+testQuandoAdicionoUmFilmeNaListaEntaoObtenhoStatusCode201EOsDadosDaResposta(com.lists.AdicionarFilmeTest)  Time elapsed: 0.245 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "io.restassured.internal.common.path.ObjectConverter.convertObjectTo(Object, java.lang.Class)" is null
+	at com.lists.AdicionarFilmeTest.before(AdicionarFilmeTest.java:42)
+

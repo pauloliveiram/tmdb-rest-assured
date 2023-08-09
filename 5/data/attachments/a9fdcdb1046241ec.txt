@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.lists.BuscarDetalhesListaTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.718 s <<< FAILURE! - in com.lists.BuscarDetalhesListaTest
+testQuandoOsDetalhesDeUmaListaEntaoObtenhoStatusCode200EOsDadosDaResposta(com.lists.BuscarDetalhesListaTest)  Time elapsed: 4.527 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "io.restassured.internal.common.path.ObjectConverter.convertObjectTo(Object, java.lang.Class)" is null
+	at com.lists.BuscarDetalhesListaTest.before(BuscarDetalhesListaTest.java:43)
+
