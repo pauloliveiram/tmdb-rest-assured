@@ -1,0 +1,7 @@
+com/account/BuscarListasTest.class
+com/lists/RemoverListaTest.class
+com/lists/BuscarDetalhesListaTest.class
+com/lists/AdicionarFilmeTest.class
+com/lists/CriarListaTest.class
+com/lists/LimparListaTest.class
+com/lists/RemoverFilmeTest.class
