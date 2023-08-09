@@ -1,4 +1,4 @@
-name:Testes da API do TMDB com Rest Assured
+name: Testes da API do TMDB com Rest Assured
 
 on:
   push:
